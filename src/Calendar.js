@@ -848,6 +848,7 @@ class Calendar extends React.Component {
     resourceTitleAccessor,
     eventPropGetter,
     backgroundEventPropGetter,
+    priorityAccessor,
     slotPropGetter,
     slotGroupPropGetter,
     dayPropGetter,
@@ -893,6 +894,7 @@ class Calendar extends React.Component {
         resource: wrapAccessor(resourceAccessor),
         resourceId: wrapAccessor(resourceIdAccessor),
         resourceTitle: wrapAccessor(resourceTitleAccessor),
+        priority: wrapAccessor(priorityAccessor),
       },
     }
   }
